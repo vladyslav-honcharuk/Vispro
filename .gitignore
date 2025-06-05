@@ -9,3 +9,11 @@ __pycache__/
 .env
 .venv/
 
+Vispro.zip
+lama_test.py
+test_run_time.py
+test_run_time_large.py
+tiff_run_time.py
+train/
+
+
