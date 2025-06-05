@@ -49,4 +49,4 @@ Process the original large image.
 python process_large_image.py --high_res_image_path /test_data/151673/spatial/tissue_hires_image.png --original_image_path /test_data/151673/151673_full_image.tif
 ```
 
-Licensed under [MIT License](./LICENSE.txt)
+Licensed under [MIT License](./LICENSE)
