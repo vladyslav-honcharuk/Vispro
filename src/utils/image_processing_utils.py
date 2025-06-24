@@ -55,7 +55,7 @@ def get_image_var(image_name: str) -> Tuple[torch.Tensor, np.ndarray]:
     # Resize dimensions to nearest multiple of 32
     h_new = find_nearest_multiple_of_32(h)
     w_new = find_nearest_multiple_of_32(w)
-    img_pil = img_pil.resize((h_new, w_new), Image.ANTIALIAS)
+    img_pil = img_pil.resize((h_new, w_new), Image.LANCZOS)
 
     # Convert to NumPy array and prepare tensor
     img_np = np.array(img_pil)
